@@ -11,6 +11,13 @@
   },
   "author": "loremaps <kapros@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "lighthouse",
+    "lhci",
+    "cloud",
+    "run",
+    "litestream"
+  ],
   "dependencies": {
     "@lhci/cli": "0.9.0",
     "@lhci/server": "0.9.0",
