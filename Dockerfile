@@ -14,7 +14,7 @@ RUN npm install
 # Copy Litestream configurations file & startup script.
 COPY etc/litestream.yml /etc/litestream.yml
 COPY scripts/run.sh /scripts/run.sh
-COPY lighthouserc.json .
+COPY lighthouserc.js .
 
 # Create data directory (although this will likely be mounted too)
 RUN mkdir -p /data \
@@ -22,7 +22,7 @@ RUN mkdir -p /data \
 
 USER node
 
-# Notify Docker that the container wants to expose a port.
-EXPOSE 8080
+ENV PORT=8080
+EXPOSE $PORT
 
 CMD [ "/bin/sh", "/scripts/run.sh" ]

@@ -10,4 +10,4 @@ else
 fi
 
 # Run litestream with your app as the subprocess.
-exec litestream replicate -exec "$(npm bin)/lhci server --config=./lighthouserc.json"
+exec litestream replicate -exec "$(npm bin)/lhci server --config=./lighthouserc.js"

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Example of running Lighthouse CI Server in Google Cloud Run",
   "scripts": {
-    "start": "lhci server --config=./lighthouserc.json"
+    "start": "lhci server --config=./lighthouserc.js"
   },
   "repository": {
     "type": "git",
