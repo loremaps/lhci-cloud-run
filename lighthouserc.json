@@ -1,0 +1,12 @@
+{
+  "ci": {
+    "server": {
+      "port": 8080,
+      "storage": {
+        "storageMethod": "sql",
+        "sqlDialect": "sqlite",
+        "sqlDatabasePath": "/data/db"
+      }
+    }
+  }
+}

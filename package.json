@@ -1,0 +1,19 @@
+{
+  "name": "lhci-cloud-run",
+  "version": "0.0.1",
+  "description": "Example of running Lighthouse CI Server in Google Cloud Run",
+  "scripts": {
+    "start": "lhci server --config=./lighthouserc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loremaps/lhci-cloud-run.git"
+  },
+  "author": "loremaps <kapros@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@lhci/cli": "0.9.0",
+    "@lhci/server": "0.9.0",
+    "sqlite3": "^5.0.8"
+  }
+}
